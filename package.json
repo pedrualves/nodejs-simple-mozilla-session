@@ -1,0 +1,33 @@
+{
+  "name": "mozilla-session",
+  "version": "1.0.0",
+  "description": "simple nodejs test mozilla session",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrualves/nodejs-simple-mozilla-session.git"
+  },
+  "keywords": [
+    "simple",
+    "node",
+    "nodejs",
+    "test",
+    "mozilla",
+    "session"
+  ],
+  "author": "Pedro Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrualves/nodejs-simple-mozilla-session/issues"
+  },
+  "homepage": "https://github.com/pedrualves/nodejs-simple-mozilla-session#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "client-sessions": "^0.8.0",
+    "express": "^4.15.3",
+    "helmet": "^3.6.0"
+  }
+}
